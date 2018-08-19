@@ -12,17 +12,19 @@ displayPosition();
 console.log('My Skills:')
 displaySkill()
 
-//Creates the Heading of the resume that inclues name,career field, and personal statement 
+//Creates the heading of the resume that inclues name,career field, and personal statement 
 function displayHeading(name,career,field,description){
-    console.log(`Name: ${name.toUpperCase()} \n Career: ${career} / ${field} \n Description: ${description}`);
+    console.log(`Name: ${name.toUpperCase()} \nCareer: ${career} / ${field} \nDescription: ${description}`);
 
 }
-function displayInterest(){
-
+function displayInterest(interest){
+    console.log(`* ${interest}`);
 }
 function displayPosition(){
 
 }
-function displaySkill(){
+
+function displaySkill(skill,isCoolSkill){
+    console.log(`* ${ (isCoolSkill) ? 'BAM: '+skill : skill}`);
 
 }
