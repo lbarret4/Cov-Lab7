@@ -1,7 +1,7 @@
-myName = 'john doe';
-myCareer = 'Full Stack Engineer'
-myfield = 'Instructor';
-myBio = 'I like turtles';
+let myName = 'john doe';
+let myCareer = 'Full Stack Engineer'
+let myfield = 'Instructor';
+let myBio = 'I like turtles';
 
 
 displayHeading(myName,myCareer,myfield,myBio);
