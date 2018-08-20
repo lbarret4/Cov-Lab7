@@ -5,12 +5,12 @@ let myBio;
 
 
 displayHeading(myName,myCareer,myfield,myBio);
-console.log('My Interests:');
+console.log('\nMy Interests:');
 displayInterest();
-console.log('My Previous Experience:');
+console.log('\nMy Previous Experience:');
 displayPosition();
-console.log('My Skills:')
-displaySkill()
+console.log('\nMy Skills:');
+displaySkill();
 
 // Displays the heading of the resume that inclues name,career field, and personal statement 
 function displayHeading(name,career,field,description){
